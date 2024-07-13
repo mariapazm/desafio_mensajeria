@@ -5,12 +5,30 @@
 }
 
 body {
+	display: flex;
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-style: normal;
     background-color: #eef0f2;
 }
 
+aside {
+	display: flex;
+	background-color: white;
+	width: 25%;
+	height: 100%;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+button {
+	background-color: blueviolet;
+	padding: 12px 20px;
+}
 .miniatura {
 	height: 80px;
 	width: 80px;
