@@ -10,3 +10,19 @@ body {
 	font-style: normal;
     background-color: #eef0f2;
 }
+
+.miniatura {
+	height: 80px;
+	width: 80px;
+	border-radius: 90%;
+}
+
+.hero {
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+}
+
+.card {
+	display: flex;
+}
