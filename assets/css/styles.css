@@ -44,3 +44,8 @@ button {
 .card {
 	display: flex;
 }
+
+.hands {
+	height: 400px;
+	width: 400px;
+}
