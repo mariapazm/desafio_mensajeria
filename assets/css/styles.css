@@ -33,6 +33,11 @@ ul {
 	background-color: white;
 }
 
+#maria {
+	font-size: 14px;
+	color: #444749;
+}
+
 .card {
 	display: flex;
 	flex-direction: row;
@@ -51,6 +56,22 @@ button {
 	padding: 12px 20px;
 	margin: 32px;
 }
+
+button:hover {
+	background-color: #cdc3e6;
+	color: white;
+}
+
+button:focus {
+	background-color: #bec1bb;
+	color: white;
+}
+.tiny {
+	height: 50px;
+	width: 50px;
+	border-radius: 90%;
+	margin: 4px;
+}
 .miniatura {
 	height: 60px;
 	width: 60px;
@@ -63,6 +84,10 @@ button {
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
+}
+
+h1{
+	font-size: 45px;
 }
 
 .content {
