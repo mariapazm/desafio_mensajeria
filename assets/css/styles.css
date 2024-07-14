@@ -5,47 +5,74 @@
 }
 
 body {
-	display: flex;
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-    background-color: #eef0f2;
+    background-color: #e8ebe4;
+	color: #1b1f21;
+}
+
+.container {
+	display: flex;
+	align-items: center;
 }
 
 aside {
 	display: flex;
+	justify-content: center;
 	background-color: white;
-	width: 25%;
-	height: 100%;
+	width: 20%;
+	height: 100lvh;
 }
 
 ul {
 	display: flex;
 	flex-direction: column;
-	background-color: white;
-}
-
-button {
-	background-color: blueviolet;
-	padding: 12px 20px;
-}
-.miniatura {
-	height: 80px;
-	width: 80px;
-	border-radius: 90%;
-}
-
-.hero {
-	display: flex;
-	justify-items: center;
 	justify-content: center;
+	justify-items: stretch;
+	background-color: white;
 }
 
 .card {
 	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-items: center;
+	justify-content: space-around;
+	text-decoration: none;
+	border-top: 1px solid #e8ebe4;
+	border-bottom: 1px solid #e8ebe4;
+}
+
+button {
+	background-color: #a491d2;
+	color: white;
+	border: white;
+	padding: 12px 20px;
+	margin: 32px;
+}
+.miniatura {
+	height: 60px;
+	width: 60px;
+	border-radius: 90%;
+	margin: 8px;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .hands {
 	height: 400px;
 	width: 400px;
+	margin: 16px;
 }
